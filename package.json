@@ -1,0 +1,20 @@
+{
+  "name": "tdd-testing_assignment",
+  "version": "1.0.0",
+  "description": "NodeJS TDD Testing Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "NodeJS",
+    "Jest",
+    "Testing",
+    "TDD"
+  ],
+  "author": "Pamela Fennell",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.6.2"
+  }
+}
