@@ -27,11 +27,11 @@ describe("Obscure Credit Card Number", () => {
 
         expect(obscureCC("1234567890123456")).toEqual("●●●●●●●●●●●●3456")
 
-        expect(obscureCC("123456789012")).toBe("●●●●●●●●9012")
+        expect(obscureCC("123456789012")).toEqual("●●●●●●●●9012")
 
     })
 
-    test("Throws an error if the input is not a number", () => {
+    test("Throw an error if the input is not a number", () => {
         expect(() => obscureCC(NaN).toThrow("Invalid."))
     })
 })
