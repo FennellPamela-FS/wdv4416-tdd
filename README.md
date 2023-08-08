@@ -6,11 +6,11 @@ Write a Unit test using TDD - Test Driven Development. Unit tests for an applica
 What to expect:
 | Unit Test | Expectations | Options
 | --- | --- | --- |
-| `Single Function` | Writen to obscure a credit card number ||
+| `Single Function` | Written to obscure a credit card number ||
 | `Argument` | should be a string and a return string ||
 | `Credit Cards`| should be between 12-16 digits ||
 | `Invalid` | if any other size | default return `Invalid Credit Card` |
-| `Characters` | only need to validate if not numbers | should be numbers|
+| `Characters` | You don't need to validate if the characters are numbers. | should be numbers|
 | `Unit Tests` | Have both Positive and Negative unit tests |  |
 
 
