@@ -34,4 +34,9 @@ describe("Obscure Credit Card Number", () => {
     test("Throw an error if the input is not a number", () => {
         expect(() => obscureCC(NaN).toThrow("Invalid."))
     })
+
+    test("Throw an error if the input is non-numeric", () => {
+        expect(() => obscureCC("1234abcd0123efgh").toThrow("Invalid Credit Card"))
+        expect(() => obscureCC("1234abcd0123").toThrow("Invalid Credit Card"))
+    });
 })
