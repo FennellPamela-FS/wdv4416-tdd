@@ -23,4 +23,4 @@ What to expect:
 
 ![Degree Program](https://img.shields.io/badge/Degree-Web%20Development-orange?logo=gnometerminal)
 <br>
-![Class Name](https://img.shields.io/badge/Class-Project%20and%20Portfolio%20III-orange?logo=react)
+![Class Name](https://img.shields.io/badge/Class-Web%20Application%20Integration-orange?logo=react)
